@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="5">
+  <parameter name="password" value="crmsfa"/>
+  <parameter name="url" value="http://leaftaps.com/opentaps/"/>
+  <parameter name="username" value="DemosalesManager"/>
+  <test thread-count="5" name="Test(failed)" verbose="5">
+    <classes>
+      <class name="god.god.Execel">
+        <methods>
+          <include name="precondition"/>
+          <include name="createlead"/>
+        </methods>
+      </class> <!-- god.god.Execel -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
